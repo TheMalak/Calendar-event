@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 start: "2025-02-04",
                 extendedProps: {
                     description: "El 4 de febrero se conmemora el Día Mundial contra el Cáncer, una fecha para crear conciencia, apoyar a quienes luchan contra la enfermedad y fomentar la prevención. Pequeñas acciones como llevar una vida saludable, realizar chequeos médicos y apoyar la investigación pueden marcar la diferencia. Juntos, podemos generar un impacto y avanzar hacia un futuro con menos casos y mejores tratamientos. Hoy y siempre, sumemos esfuerzos para combatir el cáncer con información, prevención y solidaridad. 💪🎗️ #DíaMundialContraElCáncer",
-                    imageUrl: "./assets/imageEvents/02-04.webp"
+                    imageUrl: "./assets/imageEvents/02-04.png"
                 }
             },
             {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 start: "2025-02-09",
                 extendedProps: {
                     description: "El 9 de febrero se celebra el Día Mundial de la Pizza, un platillo icónico que ha conquistado el mundo con su versatilidad y sabor. Desde la clásica margarita hasta las más creativas combinaciones, la pizza es sinónimo de felicidad y buena compañía. Ya sea con amigos, familia o en solitario, este es el día perfecto para disfrutar de tu versión favorita, probar nuevos sabores y rendir homenaje a esta deliciosa creación. ¡Celebra con una rebanada caliente y crujiente, y deja que cada bocado sea un tributo a este manjar universal! 🍕🎉",
-                    imageUrl: "./assets/imageEvents/02-09.png"
+                    imageUrl: "./assets/imageEvents/02-09.jpeg"
                 }
             },
             {
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 start: "2025-02-14",
                 extendedProps: {
                     description: "El 14 de febrero celebramos San Valentín, el día del amor y la amistad. Una ocasión especial para demostrar cariño a quienes más queremos, ya sea con un detalle, unas palabras sinceras o simplemente compartiendo momentos inolvidables. No importa cómo lo celebres, lo esencial es valorar y fortalecer los lazos que nos unen. ¡Haz de este día una oportunidad para expresar amor en todas sus formas y contagiar felicidad! ❤️🌹 #FelizSanValentín",
-                    imageUrl: "./assets/imageEvents/02-14.webp"
+                    imageUrl: "./assets/imageEvents/02-14.png"
                 }
             },
             {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 start: "2025-02-21",
                 extendedProps: {
                     description: "El 21 de febrero celebramos el Día Internacional del Guía de Turismo, homenajeando a quienes con pasión y conocimiento nos ayudan a descubrir la historia, cultura y belleza de cada destino. Su labor es clave para hacer de cada viaje una experiencia enriquecedora e inolvidable. ¡Agradezcamos a estos expertos que convierten cada recorrido en una aventura llena de aprendizaje y emoción! 🌍✨ #DíaDelGuíaDeTurismo",
-                    imageUrl: "./assets/imageEvents/02-21.jpg"
+                    imageUrl: "./assets/imageEvents/02-21.png"
                 }
             },
         ],

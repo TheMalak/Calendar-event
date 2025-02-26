@@ -1,5 +1,9 @@
 /* general styles */
 
+.d-none {
+    display: none !important;
+}
+
 body {
     font-family: "Nunito Sans", serif;
     background-color: #C7002D;
@@ -9,6 +13,7 @@ body {
 .logo {
     filter: invert(1) brightness(1000%);
 }
+
 .bus {
     position: absolute;
     bottom: 0;
@@ -17,6 +22,7 @@ body {
     width: 50%;
     transform: scaleX(-1);
 }
+
 .bus img {
     max-width: 700px;
 }
@@ -25,6 +31,7 @@ body {
     max-width: 1200px;
     padding: 0 20px;
 }
+
 .d-flex {
     display: flex;
 }
@@ -62,9 +69,11 @@ header img {
 :root {
     --fc-border-color: unset;
 }
+
 tr {
     border: 1px solid #ccc !important;
 }
+
 .fc-daygrid-day-frame {
     border-right: 1px solid #ccc !important;
 }
@@ -79,6 +88,7 @@ tr {
     background-color: white !important;
     color: black;
 }
+
 .fc-toolbar-title {
     text-transform: capitalize;
 }
@@ -102,6 +112,30 @@ tr {
 .fc-today-button {
     display: none !important;
 }
+
+.mobile-title {
+    padding-top: 0.3rem !important;
+}
+
+.mobile-title img {
+    max-width: 1rem;
+    filter: invert(1) brightness(1000%);
+}
+
+@media (max-width: 768px) {
+    .fc-event-title {
+        display: none !important;
+    }
+}
+
+.mobile-title {
+    display: block !important;
+}
+
+.fc-scroller {
+    overflow: hidden !important;
+}
+
 
 
 /* modal styles */

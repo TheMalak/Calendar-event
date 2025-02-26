@@ -5,10 +5,6 @@ const closeButton = document.querySelector(".close-modal");
 const modalImage = document.querySelector(".modal-right img"); // Seleccionamos la imagen dentro del modal
 let isOpened = false;
 
-const title = "Title";
-const description = "here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.";
-const imageUrl = "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dfd2ec5a01006fd8c4d7592a381d3776&auto=format&fit=crop&w=1000&q=80";
-
 function openModal(title, description, imageUrl) {
     modal.classList.add("is-open");
     body.style.overflow = "hidden";
@@ -95,5 +91,18 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     calendar.render();
+    if(calendar) {
+        document.querySelectorAll('.fc-event-title-container').forEach(element => {
+            const div = document.createElement('div');
+            div.className = 'mobile-title d-none';
+        
+            const img = document.createElement('img');
+            img.src = './assets/save.svg';
+            img.alt = 'Save Icon';
+        
+            div.appendChild(img);
+            element.appendChild(div);
+        });
+    }
     // setCorrectCalendarTitle();
 });

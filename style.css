@@ -128,14 +128,9 @@ tr {
     }
 }
 
-.mobile-title {
-    display: block !important;
-}
-
 .fc-scroller {
     overflow: hidden !important;
 }
-
 
 
 /* modal styles */

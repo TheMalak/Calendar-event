@@ -102,7 +102,18 @@ document.addEventListener('DOMContentLoaded', function () {
         
             div.appendChild(img);
             element.appendChild(div);
+            toggleMobileTitle();
         });
     }
     // setCorrectCalendarTitle();
 });
+
+function toggleMobileTitle() {
+    const isMobile = window.innerWidth < 768;
+    document.querySelectorAll('.mobile-title').forEach(element => {
+        element.classList.toggle('d-none', !isMobile);
+    });
+}
+
+// Ejecutar en cada cambio de tamaño de ventana
+window.addEventListener('resize', toggleMobileTitle);
